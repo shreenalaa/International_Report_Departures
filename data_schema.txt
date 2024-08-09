@@ -1,0 +1,18 @@
+- data_dte :Date
+- Year :Year when the data was recorded
+- Month:Month when the data was recorded
+- usg_apt_id :US Gateway Airport ID - assigned by US DOT to identify an airport
+- usg_apt:US Gateway Airport Code - usually assigned by IATA, but in absence of IATA designation, 
+     may show FAA-assigned code
+- usg_wac :US Gateway World Area Code - assigned by US DOT to represent a geographic territory
+- fg_apt_id :Foreign Gateway Airport ID - assigned by US DOT to identify an airport
+- fg_apt :Foreign Gateway Airport Code - usually assigned by IATA, but in absense of IATA designation,
+    may show FAA-assigned code
+- fg_wac :Foreign Gateway World Area Code - assigned by US DOT to represent a geographic territory
+- airlineid :Airline ID - assigned by US DOT to identify an air carrier
+- carrier :IATA-assigned air carrier code. If carrier has no IATA code, ICAO- or FAA-assigned code may be used
+- carriergroup :Carrier Group Code - 1 denotes US domestic air carriers, 0 denotes foreign air carriers
+- type :The type of the metrics
+- Scheduled :Metric flown by scheduled service operations
+- Charter: Metric flown by charter operations
+- Total :Total Total Metric flown by scheduled service and charter operations
